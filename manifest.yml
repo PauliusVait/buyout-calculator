@@ -1,12 +1,8 @@
 modules:
   webtrigger:
-    - key: buyout-calculator-webtrigger-sync
-      function: sync
     - key: buyout-calculator-webtrigger-async
       function: async
   function:
-    - key: sync
-      handler: index.runSync
     - key: async
       handler: index.runAsync
 app:

@@ -7,5 +7,5 @@ modules:
       handler: index.runAsync
 app:
   runtime:
-    name: nodejs18.x
+    name: nodejs20.x
   id: ari:cloud:ecosystem::app/e40a5ce3-6142-420d-b390-14ace0ab4b09
